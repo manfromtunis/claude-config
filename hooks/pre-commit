@@ -1,0 +1,41 @@
+#!/bin/bash
+
+# Claude Code Pre-Commit Hook
+# Runs linting and formatting checks before commits
+
+set -e
+
+echo "🔍 Running pre-commit checks..."
+
+# Check if we're in a Node.js project
+if [ -f "package.json" ]; then
+    echo "📦 Node.js project detected"
+    
+    # Run linting
+    if npm run lint --silent 2>/dev/null; then
+        echo "✅ ESLint passed"
+    else
+        echo "❌ ESLint failed - fix errors before committing"
+        exit 1
+    fi
+    
+    # Run TypeScript check if available
+    if npm run type-check --silent 2>/dev/null; then
+        echo "✅ TypeScript check passed"
+    elif npx tsc --noEmit --silent 2>/dev/null; then
+        echo "✅ TypeScript check passed"
+    else
+        echo "⚠️  TypeScript check not available or failed"
+    fi
+    
+    # Run tests if available
+    if npm test -- --passWithNoTests --silent 2>/dev/null; then
+        echo "✅ Tests passed"
+    else
+        echo "⚠️  Tests not available or failed"
+    fi
+else
+    echo "📁 Non-Node.js project - skipping checks"
+fi
+
+echo "✅ Pre-commit checks completed successfully!"

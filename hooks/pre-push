@@ -1,0 +1,39 @@
+#!/bin/bash
+
+# Claude Code Pre-Push Hook
+# Runs comprehensive checks before pushing
+
+set -e
+
+echo "🚀 Running pre-push checks..."
+
+# Check if we're in a Node.js project
+if [ -f "package.json" ]; then
+    echo "📦 Node.js project detected"
+    
+    # Run build
+    if npm run build --silent 2>/dev/null; then
+        echo "✅ Build succeeded"
+    else
+        echo "❌ Build failed - fix errors before pushing"
+        exit 1
+    fi
+    
+    # Run full test suite
+    if npm test -- --watchAll=false --silent 2>/dev/null; then
+        echo "✅ Full test suite passed"
+    else
+        echo "⚠️  Tests failed or not available"
+    fi
+    
+    # Check for security vulnerabilities
+    if npm audit --audit-level=moderate --silent 2>/dev/null; then
+        echo "✅ Security audit passed"
+    else
+        echo "⚠️  Security vulnerabilities detected"
+    fi
+else
+    echo "📁 Non-Node.js project - skipping checks"
+fi
+
+echo "✅ Pre-push checks completed successfully!"

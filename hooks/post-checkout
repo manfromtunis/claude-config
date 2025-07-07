@@ -1,0 +1,33 @@
+#!/bin/bash
+
+# Claude Code Post-Checkout Hook
+# Runs after checking out branches to ensure dependencies are up to date
+
+echo "🔄 Running post-checkout setup..."
+
+# Check if we're in a Node.js project
+if [ -f "package.json" ]; then
+    echo "📦 Node.js project detected"
+    
+    # Check if package-lock.json changed
+    if git diff HEAD@{1} --name-only | grep -q "package-lock.json\|package.json\|yarn.lock"; then
+        echo "📋 Dependencies changed, installing..."
+        
+        if [ -f "yarn.lock" ]; then
+            yarn install --silent
+            echo "✅ Dependencies installed with Yarn"
+        elif [ -f "pnpm-lock.yaml" ]; then
+            pnpm install --silent
+            echo "✅ Dependencies installed with pnpm"
+        else
+            npm install --silent
+            echo "✅ Dependencies installed with npm"
+        fi
+    else
+        echo "📋 No dependency changes detected"
+    fi
+else
+    echo "📁 Non-Node.js project - skipping dependency check"
+fi
+
+echo "✅ Post-checkout setup completed!"
