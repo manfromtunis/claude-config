@@ -1,0 +1,483 @@
+{
+  "numStartups": 146,
+  "installMethod": "global",
+  "autoUpdates": true,
+  "hasSeenTasksHint": true,
+  "tipsHistory": {
+    "new-user-warmup": 1,
+    "memory-command": 132,
+    "theme-command": 127,
+    "enter-to-steer-in-relatime": 127,
+    "todo-list": 127,
+    "# for memory": 58,
+    "ide-hotkey": 31,
+    "shift-enter": 140,
+    "install-github-app": 69,
+    "permissions": 141,
+    "drag-and-drop-images": 142,
+    "double-esc": 16,
+    "continue": 142,
+    "custom-commands": 132,
+    "status-line": 123,
+    "shift-tab": 142,
+    "custom-agents": 132,
+    "plan-mode-for-complex-tasks": 111,
+    "image-paste": 145,
+    "double-esc-code-restore": 142,
+    "tab-toggle-thinking": 56,
+    "ultrathink-keyword": 140,
+    "stickers-command": 144,
+    "git-worktrees": 90,
+    "rename-conversation": 138,
+    "config-thinking-mode": 119,
+    "desktop-app": 142,
+    "web-app": 142,
+    "mobile-app": 142,
+    "install-slack-app": 140,
+    "btw-side-question": 117,
+    "guest-passes": 100,
+    "frontend-design-plugin": 132,
+    "default-permission-mode-config": 141
+  },
+  "promptQueueUseCount": 576,
+  "showExpandedTodos": true,
+  "cachedStatsigGates": {
+    "tengu_disable_bypass_permissions_mode": false,
+    "tengu_use_file_checkpoints": true,
+    "tengu_tool_pear": false,
+    "tengu_migrate_ignore_patterns": false,
+    "tengu_halloween": false,
+    "tengu_log_1p_events": true,
+    "tengu_enable_versioned_plugins": false,
+    "tengu_web_tasks": true,
+    "code_slack_app_install_banner": false,
+    "tengu_sumi": true,
+    "tengu_react_vulnerability_warning": false,
+    "tengu_tool_result_persistence": false,
+    "tengu_c4w_usage_limit_notifications_enabled": true,
+    "tengu_thinkback": false,
+    "tengu_clawd_openfire": false,
+    "tengu_ant_attribution_header_new": true,
+    "tengu_prompt_suggestion": true,
+    "tengu_year_end_2025_campaign_promo": false,
+    "tengu_streaming_tool_execution2": false,
+    "tengu_session_memory": false
+  },
+  "cachedDynamicConfigs": {
+    "tengu_1p_event_batch_config": {
+      "scheduledDelayMillis": 5000,
+      "maxExportBatchSize": 200,
+      "maxQueueSize": 8192
+    },
+    "tengu-top-of-feed-tip": {
+      "tip": "",
+      "color": ""
+    }
+  },
+  "cachedGrowthBookFeatures": {
+    "strawberry_granite_flag": "N/A",
+    "persimmon_marble_flag": "N/A",
+    "tengu_accept_with_feedback": true,
+    "tengu_mcp_tool_search": false,
+    "tengu_disable_bypass_permissions_mode": false,
+    "tengu_tool_pear": false,
+    "tengu_c4w_usage_limit_notifications_enabled": true,
+    "tengu_thinkback": false,
+    "tengu_sumi": false,
+    "tengu_react_vulnerability_warning": false,
+    "tengu_ant_attribution_header_new": true,
+    "tengu_tool_result_persistence": false,
+    "doorbell_bottle": "inherit",
+    "tengu_gha_plugin_code_review": false,
+    "tengu_tool_search_unsupported_models": null,
+    "tengu_1p_event_batch_config": {
+      "scheduledDelayMillis": 5000,
+      "maxExportBatchSize": 200,
+      "maxQueueSize": 8192
+    },
+    "tengu_event_sampling_config": {},
+    "tengu_pid_based_version_locking": true,
+    "tengu-top-of-feed-tip": {
+      "tip": "",
+      "color": ""
+    },
+    "tengu_permission_explainer": false,
+    "tengu_scratch": false,
+    "tengu_log_segment_events": false,
+    "tengu_log_datadog_events": true,
+    "tengu_streaming_tool_execution2": false,
+    "tengu_post_compact_survey": false
+  },
+  "hasSeenStashHint": true,
+  "firstStartTime": "2025-06-22T13:59:20.464Z",
+  "userID": "a44f9f9bec8a46d3ca25e7b7ba90185bf80a61350cc48d0a51f9111ebd772922",
+  "projects": {
+    "/home/melek": {
+      "allowedTools": [],
+      "mcpContextUris": [],
+      "mcpServers": {},
+      "enabledMcpjsonServers": [],
+      "disabledMcpjsonServers": [],
+      "hasTrustDialogAccepted": false,
+      "projectOnboardingSeenCount": 1,
+      "hasClaudeMdExternalIncludesApproved": false,
+      "hasClaudeMdExternalIncludesWarningShown": false,
+      "hasCompletedProjectOnboarding": true,
+      "lastTotalWebSearchRequests": 0
+    },
+    "/home/melek/github": {
+      "allowedTools": [],
+      "mcpContextUris": [],
+      "mcpServers": {
+        "vercel": {
+          "type": "http",
+          "url": "https://mcp.vercel.com"
+        }
+      },
+      "enabledMcpjsonServers": [],
+      "disabledMcpjsonServers": [],
+      "hasTrustDialogAccepted": true,
+      "projectOnboardingSeenCount": 8,
+      "hasClaudeMdExternalIncludesApproved": false,
+      "hasClaudeMdExternalIncludesWarningShown": false,
+      "hasCompletedProjectOnboarding": true,
+      "lastTotalWebSearchRequests": 4,
+      "reactVulnerabilityCache": {
+        "detected": false,
+        "package": null,
+        "packageName": null,
+        "version": null,
+        "packageManager": null
+      },
+      "lastCost": 1.2038599500000002,
+      "lastAPIDuration": 295722,
+      "lastAPIDurationWithoutRetries": 295673,
+      "lastToolDuration": 251240,
+      "lastDuration": 20907415,
+      "lastLinesAdded": 0,
+      "lastLinesRemoved": 0,
+      "lastTotalInputTokens": 42193,
+      "lastTotalOutputTokens": 11690,
+      "lastTotalCacheCreationInputTokens": 248539,
+      "lastTotalCacheReadInputTokens": 365912,
+      "lastModelUsage": {
+        "claude-haiku-4-5-20251001": {
+          "inputTokens": 41113,
+          "outputTokens": 3092,
+          "cacheReadInputTokens": 41377,
+          "cacheCreationInputTokens": 23377,
+          "webSearchRequests": 0,
+          "costUSD": 0.08993195
+        },
+        "claude-sonnet-4-5-20250929": {
+          "inputTokens": 1080,
+          "outputTokens": 8598,
+          "cacheReadInputTokens": 324535,
+          "cacheCreationInputTokens": 225162,
+          "webSearchRequests": 4,
+          "costUSD": 1.113928
+        }
+      },
+      "lastSessionId": "67a4de27-c2cc-436d-95d9-7269444bd951"
+    },
+    "/home/melek/github/bakchich-monorepo": {
+      "allowedTools": [],
+      "mcpContextUris": [],
+      "mcpServers": {},
+      "enabledMcpjsonServers": [],
+      "disabledMcpjsonServers": [],
+      "hasTrustDialogAccepted": true,
+      "projectOnboardingSeenCount": 0,
+      "hasClaudeMdExternalIncludesApproved": false,
+      "hasClaudeMdExternalIncludesWarningShown": false,
+      "exampleFiles": [
+        "apps/dashboard/src/app/actions.ts",
+        "apps/feed/src/app/actions.ts",
+        "libs/data-helpers/src/lib/models.ts",
+        "libs/ui/src/lib/NavBar.tsx",
+        "libs/authentication/src/lib/auth.ts"
+      ],
+      "exampleFilesGeneratedAt": 1759370909941,
+      "hasCompletedProjectOnboarding": true,
+      "lastTotalWebSearchRequests": 0
+    },
+    "/home/melek/github/bakchich-business/bakchich-business-landing-page": {
+      "allowedTools": [],
+      "mcpContextUris": [],
+      "mcpServers": {},
+      "enabledMcpjsonServers": [],
+      "disabledMcpjsonServers": [],
+      "hasTrustDialogAccepted": false,
+      "projectOnboardingSeenCount": 1,
+      "hasClaudeMdExternalIncludesApproved": false,
+      "hasClaudeMdExternalIncludesWarningShown": false,
+      "exampleFiles": [
+        "app/page.tsx",
+        "layout.tsx",
+        "BakchichNavbar.tsx",
+        "BookingSuccessComponent.tsx",
+        "globals.css"
+      ],
+      "exampleFilesGeneratedAt": 1753400930576,
+      "hasCompletedProjectOnboarding": true,
+      "lastTotalWebSearchRequests": 0
+    },
+    "/home/melek/github/bakchich-business": {
+      "allowedTools": [],
+      "mcpContextUris": [],
+      "mcpServers": {
+        "playwright": {
+          "type": "stdio",
+          "command": "npx",
+          "args": [
+            "@playwright/mcp@latest"
+          ],
+          "env": {}
+        }
+      },
+      "enabledMcpjsonServers": [],
+      "disabledMcpjsonServers": [],
+      "hasTrustDialogAccepted": true,
+      "projectOnboardingSeenCount": 0,
+      "hasClaudeMdExternalIncludesApproved": false,
+      "hasClaudeMdExternalIncludesWarningShown": false,
+      "lastTotalWebSearchRequests": 0,
+      "hasCompletedProjectOnboarding": true
+    },
+    "/home/melek/github/livestream-splitter": {
+      "allowedTools": [],
+      "mcpContextUris": [],
+      "mcpServers": {},
+      "enabledMcpjsonServers": [],
+      "disabledMcpjsonServers": [],
+      "hasTrustDialogAccepted": false,
+      "projectOnboardingSeenCount": 5,
+      "hasClaudeMdExternalIncludesApproved": false,
+      "hasClaudeMdExternalIncludesWarningShown": false,
+      "hasCompletedProjectOnboarding": true,
+      "lastCost": 7.037293050000001,
+      "lastAPIDuration": 1100129,
+      "lastDuration": 81406494,
+      "lastLinesAdded": 2874,
+      "lastLinesRemoved": 133,
+      "lastTotalInputTokens": 58459,
+      "lastTotalOutputTokens": 46090,
+      "lastTotalCacheCreationInputTokens": 462763,
+      "lastTotalCacheReadInputTokens": 3692096,
+      "lastTotalWebSearchRequests": 0,
+      "lastSessionId": "cde198b7-1096-43db-919c-f840725d6944"
+    },
+    "/home/melek/github/clip2earn": {
+      "allowedTools": [],
+      "mcpContextUris": [],
+      "mcpServers": {
+        "context7": {
+          "type": "http",
+          "url": "https://mcp.context7.com/mcp",
+          "headers": {
+            "CONTEXT7_API_KEY": "ctx7sk-289fe2c6-7647-48e0-b66c-74e20bf2bb26"
+          }
+        },
+        "obsidian": {
+          "type": "stdio",
+          "command": "uvx",
+          "args": [
+            "mcp-obsidian"
+          ],
+          "env": {
+            "OBSIDIAN_API_KEY": "c2d4113d30bd92c4a74cc1e9af5dc236ca694c8c2cab67047f93a12e8cf50a61",
+            "OBSIDIAN_HOST": "127.0.0.1",
+            "OBSIDIAN_PORT": "27123"
+          }
+        },
+        "github": {
+          "type": "stdio",
+          "command": "npx",
+          "args": [
+            "-y",
+            "@modelcontextprotocol/server-github"
+          ],
+          "env": {
+            "GITHUB_PERSONAL_ACCESS_TOKEN": "ghp_"
+          }
+        }
+      },
+      "enabledMcpjsonServers": [],
+      "disabledMcpjsonServers": [],
+      "hasTrustDialogAccepted": true,
+      "ignorePatterns": [],
+      "projectOnboardingSeenCount": 0,
+      "hasClaudeMdExternalIncludesApproved": false,
+      "hasClaudeMdExternalIncludesWarningShown": false,
+      "exampleFiles": [
+        "video-tracking.service.ts",
+        "admin.service.ts",
+        "contract-completion.service.ts",
+        "earnings-calculator.service.ts",
+        "KycVerificationModal.tsx"
+      ],
+      "exampleFilesGeneratedAt": 1767975956341,
+      "hasCompletedProjectOnboarding": true,
+      "lastTotalWebSearchRequests": 0,
+      "lastCost": 0,
+      "lastAPIDuration": 0,
+      "lastToolDuration": 0,
+      "lastDuration": 16649,
+      "lastLinesAdded": 0,
+      "lastLinesRemoved": 0,
+      "lastTotalInputTokens": 0,
+      "lastTotalOutputTokens": 0,
+      "lastTotalCacheCreationInputTokens": 0,
+      "lastTotalCacheReadInputTokens": 0,
+      "lastSessionId": "7ad268c2-4e1d-420b-b248-37f9885cadc9",
+      "reactVulnerabilityCache": {
+        "detected": false,
+        "package": null,
+        "packageName": null,
+        "version": null,
+        "packageManager": null
+      },
+      "lastAPIDurationWithoutRetries": 0,
+      "lastModelUsage": {}
+    },
+    "/home/melek/github/wodagoat/goat-rank-arena": {
+      "allowedTools": [],
+      "mcpContextUris": [],
+      "mcpServers": {},
+      "enabledMcpjsonServers": [],
+      "disabledMcpjsonServers": [],
+      "hasTrustDialogAccepted": false,
+      "ignorePatterns": [],
+      "projectOnboardingSeenCount": 2,
+      "hasClaudeMdExternalIncludesApproved": false,
+      "hasClaudeMdExternalIncludesWarningShown": false,
+      "exampleFiles": [
+        "GlobalLeaderboard.tsx",
+        "App.tsx",
+        "EnhancedAuthModal.tsx",
+        "RankingEditor.tsx",
+        "UserRankingContent.tsx"
+      ],
+      "exampleFilesGeneratedAt": 1761574759731
+    },
+    "/home/melek/github/EnerQR-Dossier-v1": {
+      "allowedTools": [],
+      "mcpContextUris": [],
+      "mcpServers": {},
+      "enabledMcpjsonServers": [],
+      "disabledMcpjsonServers": [],
+      "hasTrustDialogAccepted": true,
+      "ignorePatterns": [],
+      "projectOnboardingSeenCount": 3,
+      "hasClaudeMdExternalIncludesApproved": false,
+      "hasClaudeMdExternalIncludesWarningShown": false,
+      "exampleFiles": []
+    }
+  },
+  "hasCompletedOnboarding": true,
+  "lastOnboardingVersion": "1.0.31",
+  "subscriptionNoticeCount": 0,
+  "hasAvailableSubscription": false,
+  "changelogLastFetched": 1768039674278,
+  "fallbackAvailableWarningThreshold": 0.2,
+  "lastReleaseNotesSeen": "2.1.3",
+  "isQualifiedForDataSharing": false,
+  "shiftEnterKeyBindingInstalled": true,
+  "s1mAccessCache": {
+    "9d88dbf4-bb63-4273-a157-0a5236394669": {
+      "hasAccess": false,
+      "hasAccessNotAsDefault": false,
+      "timestamp": 1768084762900
+    }
+  },
+  "hasOpusPlanDefault": false,
+  "sonnet45MigrationComplete": true,
+  "feedbackSurveyState": {
+    "lastShownTime": 1767808296934
+  },
+  "opus45MigrationComplete": true,
+  "githubRepoPaths": {
+    "artguru-tech-team/clip2earn": [
+      "/home/melek/github/clip2earn"
+    ]
+  },
+  "hasShownOpus45Notice": {
+    "9d88dbf4-bb63-4273-a157-0a5236394669": true
+  },
+  "passesEligibilityCache": {
+    "9d88dbf4-bb63-4273-a157-0a5236394669": {
+      "eligible": true,
+      "referral_code_details": {
+        "code": "X7DxO-pOfg",
+        "campaign": "claude_code_guest_pass",
+        "referral_link": "https://claude.ai/referral/X7DxO-pOfg"
+      },
+      "timestamp": 1768084763282
+    }
+  },
+  "hasIdeOnboardingBeenShown": {
+    "cursor": true
+  },
+  "officialMarketplaceAutoInstallAttempted": true,
+  "officialMarketplaceAutoInstalled": true,
+  "thinkingMigrationComplete": true,
+  "passesUpsellSeenCount": 4,
+  "githubActionSetupCount": 1,
+  "claudeInChromeDefaultEnabled": false,
+  "hasCompletedClaudeInChromeOnboarding": true,
+  "claudeCodeFirstTokenDate": "2025-07-04T16:27:44.448900Z",
+  "oauthAccount": {
+    "accountUuid": "8a3d3a03-f41f-4d99-afd6-f77e63ed24da",
+    "emailAddress": "infos@art-guru.tech",
+    "organizationUuid": "9d88dbf4-bb63-4273-a157-0a5236394669",
+    "hasExtraUsageEnabled": false,
+    "displayName": "Melek",
+    "organizationRole": "admin",
+    "workspaceRole": null,
+    "organizationName": "infos@art-guru.tech's Organization"
+  },
+  "hasVisitedPasses": true,
+  "lastPlanModeUse": 1767629456332,
+  "groveConfigCache": {
+    "8a3d3a03-f41f-4d99-afd6-f77e63ed24da": {
+      "grove_enabled": true,
+      "timestamp": 1768039684919
+    }
+  },
+  "skillUsage": {
+    "new-work": {
+      "usageCount": 3,
+      "lastUsedAt": 1767974668708
+    },
+    "think-ultra": {
+      "usageCount": 2,
+      "lastUsedAt": 1767958138282
+    },
+    "review-iterate": {
+      "usageCount": 10,
+      "lastUsedAt": 1767985693991
+    },
+    "clean-worktrees": {
+      "usageCount": 1,
+      "lastUsedAt": 1767973646875
+    },
+    "pm:prd-new": {
+      "usageCount": 1,
+      "lastUsedAt": 1767973649086
+    },
+    "pm:prd-parse": {
+      "usageCount": 1,
+      "lastUsedAt": 1767977126686
+    },
+    "hookify:list": {
+      "usageCount": 1,
+      "lastUsedAt": 1767996673911
+    }
+  },
+  "mcpServers": {
+    "Jam": {
+      "type": "http",
+      "url": "https://mcp.jam.dev/mcp"
+    }
+  }
+}
